@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  min-width: 100vw;
+  min-height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container .wrapper {
+  /* border: 1px solid seagreen; */
+  width: 420px;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  padding-top: 4px;
+  padding-bottom: 16px;
+}
+
+.wrapper .title h1 {
+  text-align: center;
+  font-weight: 700;
+  font-size: 26px;
+}
+
+.wrapper .input-box {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  margin: 7px;
+}
+
+.input-box input {
+  border: 1px solid;
+  outline: none;
+  width: 80%;
+  padding: 7px;
+  border-radius: 40px;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.wrapper .remember-forgot {
+  width: 336px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.wrapper .btn-login {
+  margin-top: 8px;
+  text-align: center;
+  width: 80%;
+}
+
+.btn-login button {
+  color: #fff;
+  padding: 7px;
+  width: 100%;
+  height: 100%;
+  background-color: #222;
+  border-radius: 40px;
+}
+
+
+RememberForgot {
+  display: none;
+}
+
+.transparent-image {
+  background-color: rgba(255, 255, 255, 0.5);
+}
